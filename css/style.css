@@ -1183,7 +1183,6 @@ padding-top: 0;
   background: #f7f7f7;
 }
 .header-three .menu-area::after{
-    background:#e69c2c;
     content: "";
     position: absolute;
     width: 45%;
@@ -2246,6 +2245,7 @@ color: #e69c2c;
 .about-sbox {
   background: #181818;
   padding: 20px;
+  text-align: center;
 }
 .about-sbox .icon{
     margin-bottom: 20px;
@@ -12555,4 +12555,8 @@ color: #fff;
 }
 .scrollbox2 {
     position: relative;
+}
+
+.about-sbox:hover{
+  background-color: #e69c2c;
 }
