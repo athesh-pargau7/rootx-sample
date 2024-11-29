@@ -20,6 +20,26 @@
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <style>
+      .custom-underline {
+        font-size: 60px;
+        font-weight: normal;
+        color: #000; /* Text color */
+        display: inline-block;
+        position: relative;
+      }
+    
+      .custom-underline span {
+        position: relative;
+        display: inline-block;
+      }
+    
+      .underline-svg {
+        display: block;
+        margin-top: -20px; /* Adjust distance below the text */
+        margin-left: 43%;
+      }
+    </style>
   </head>
   <body class="dark">
     <!-- header -->
@@ -158,8 +178,19 @@
                     <h2 data-animation="fadeInUp" data-delay=".4s">
                       Root<span style="color: #e69c2c;">X</span><br>
                     </h2>
-                    <h3 style="font-size: 60px;">Protecting What Matters
-                    </h3><br>
+                    <h3 class="custom-underline">
+                      Protecting <span>What Matters</span>
+                    </h3>
+                    
+                    <svg width="350" height="40" class="underline-svg">
+                      <path 
+                        d="M0,30 Q175,0 350,30" 
+                        stroke-linecap="round" 
+                        fill="none" 
+                        stroke="#e69c2c" 
+                        stroke-width="7" />
+                    </svg>
+                                   <br>
                     <ul>
                       <li><a href="vapt.html">VAPT</a></li>
                       <li><a href="application-security.html">Application Security</a></li>
